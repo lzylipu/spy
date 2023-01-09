@@ -1,20 +1,47 @@
 js_config:
 - Container:
   - []
-  Env: jd_wxCartKoi_activityId
+  Env: jd_cjwxKnowledgeActivity_activityId
   KeyWord:
-  - - jd_wxCartKoi_activityId
-  Name: 【云上】购物车锦鲤
-  Script: jd_wxCartKoi.js
+  - - jd_cjwxKnowledgeActivity_activityId
+  Name: 【KR库】CJ知识超人
+  Script: KingRan_KR/jd_cjwxKnowledgeActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: WXGAME_ACT_ID
+  Env: jd_wxShareActivity_activityId
   KeyWord:
-  - - WXGAME_ACT_ID
-  Name: 【云上】通用游戏任务
-  Script: jd_wxgame.js
+  - - jd_wxShareActivity_activityId
+  Name: 【KR库】分享有礼
+  Script: KingRan_KR/jd_wxShareActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxShopGift_activityUrl
+  KeyWord:
+  - - jd_wxShopGift_activityUrl
+  Name: 【KR库】店铺礼包特效
+  Script: KingRan_KR/jd_wxShopGift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxgame_activityId
+  KeyWord:
+  - - jd_wxgame_activityId
+  Name: 【KR库】LZ店铺游戏
+  Script: KingRan_KR/jd_wxgame.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxKnowledgeActivity_activityUrl
+  KeyWord:
+  - - jd_wxKnowledgeActivity_activityUrl
+  Name: 【KR库】LZ知识超人
+  Script: KingRan_KR/jd_wxKnowledgeActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -22,16 +49,268 @@ js_config:
   Env: jd_wxFansInterActionActivity_activityId
   KeyWord:
   - - jd_wxFansInterActionActivity_activityId
-  Name: 【云上】粉丝互动
-  Script: jd_wxFansInterActionActivity.js
+  Name: 【KR库】LZ粉丝互动
+  Script: KingRan_KR/jd_wxFansInterActionActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: jd_wxSecond_activityId
+  Env: jd_wxCollectCard_activityId
   KeyWord:
-  - - jd_wxSecond_activityId
-  Name: 【云上】读秒拼手速
-  Script: jd_wxSecond.js
+  - - jd_wxCollectCard_activityId
+  Name: 【KR库】集卡抽奖
+  Script: KingRan_KR/jd_wxCollectCard.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_draw_url
+  KeyWord:
+  - - jd_lzkj_loreal_draw_url
+  Name: 【KR库】幸运抽奖
+  Script: KingRan_KR/jd_lzkj_loreal_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_followShop_url
+  KeyWord:
+  - - jd_lzkj_loreal_followShop_url
+  Name: 【KR库】关注有礼
+  Script: KingRan_KR/jd_lzkj_loreal_followShop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_cart_url
+  KeyWord:
+  - - jd_lzkj_loreal_cart_url
+  Name: 【KR库】加购有礼
+  Script: KingRan_KR/jd_lzkj_loreal_cart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxMcLevelAndBirthGifts_activityId
+  KeyWord:
+  - - jd_wxMcLevelAndBirthGifts_activityId
+  Name: 【KR库】生日礼包
+  Script: KingRan_KR/jd_wxMcLevelAndBirthGifts.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxCollectionActivity_activityUrl
+  KeyWord:
+  - - jd_wxCollectionActivity_activityUrl
+  Name: 【KR库】加购有礼
+  Script: KingRan_KR/jd_wxCollectionActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxCartKoi_activityId
+  KeyWord:
+  - - jd_wxCartKoi_activityId
+  Name: 【KR库】购物车锦鲤
+  Script: KingRan_KR/jd_wxCartKoi.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxBuildActivity_activityId
+  KeyWord:
+  - - jd_wxBuildActivity_activityId
+  Name: 【KR库】盖楼有礼
+  Script: KingRan_KR/jd_wxBuildActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: DPLHTY
+  KeyWord:
+  - - DPLHTY
+  Name: 【KR库】大牌联合
+  Script: KingRan_KR/jd_opencardDPLHTY.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_zdjr_activityId
+  KeyWord:
+  - - jd_zdjr_activityId
+  Name: 【KR库】组队瓜分奖品
+  Script: KingRan_KR/jd_zdjr.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_cjhy_activityId
+  KeyWord:
+  - - jd_cjhy_activityId
+  Name: 【KR库】CJ组队瓜分
+  Script: KingRan_KR/jd_cjzdgf.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_teamAJ
+  KeyWord:
+  - - jd_teamAJ
+  Name: 【KR库】组队分豆AJ
+  Script: KingRan_KR/jd_team_exchange.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_teamFLP
+  KeyWord:
+  - - jd_teamFLP
+  Name: 【KR库】组队分豆FLP
+  Script: KingRan_KR/jd_team_exchange.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxShopFollowActivity_activityUrl
+  KeyWord:
+  - - jd_wxShopFollowActivity_activityUrl
+  Name: 【KR库】关注店铺有礼
+  Script: KingRan_KR/jd_wxShopFollowActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: yhyauthorCode
+  KeyWord:
+  - - yhyauthorCode
+  Name: 【KR库】邀请赢大礼
+  Script: KingRan_KR/jd_prodev.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: JD_JOYOPEN
+  KeyWord:
+  - - JD_JOYOPEN
+  Name: 【KR库】JOY通用开卡活动
+  Script: KingRan_KR/jd_joyopen.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_categoryUnion_activityId
+  KeyWord:
+  - - jd_categoryUnion_activityId
+  Name: 【KR库】品类联合
+  Script: KingRan_KR/jd_categoryUnion.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: LUCK_DRAW_URL
+  KeyWord:
+  - - LUCK_DRAW_URL
+  Name: 【KR库】店铺抽奖
+  Script: KingRan_KR/jd_luck_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: VENDER_ID
+  KeyWord:
+  - - VENDER_ID
+  Name: 【KR库】入会开卡领取礼通用
+  Script: KingRan_KR/jd_OpenCard_Force.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_FOLLOW_SHOP_ARGV
+  KeyWord:
+  - - M_FOLLOW_SHOP_ARGV
+  Name: 【KR库】关注有礼
+  Script: KingRan_KR/jd_follow.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_cjdaily_activityId
+  KeyWord:
+  - - jd_cjdaily_activityId
+  Name: 【KR库】CJ每日抢好礼通用活动
+  Script: KingRan_KR/jd_cjdaily.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_daily_activityId
+  KeyWord:
+  - - jd_daily_activityId
+  Name: 【KR库】LZ每日抢好礼通用活动
+  Script: KingRan_KR/jd_daily.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_completeInfoActivity_activityId
+  KeyWord:
+  - - jd_completeInfoActivity_activityId
+  Name: 【KR库】完善信息有礼
+  Script: KingRan_KR/jd_completeInfoActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_cart_item_activityUrl
+  KeyWord:
+  - - jd_cart_item_activityUrl
+  Name: 【KR库】收藏大师加购有礼
+  Script: KingRan_KR/jd_txzj_cart_item.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_collect_shop_activityUrl
+  KeyWord:
+  - - jd_collect_shop_activityUrl
+  Name: 【KR库】收藏大师关注商品
+  Script: KingRan_KR/jd_collect_shop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_collect_item_activityUrl
+  KeyWord:
+  - - jd_collect_item_activityUrl
+  Name: 【KR库】收藏大师关注有礼
+  Script: KingRan_KR/jd_txzj_collect_item.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wdzfd_activityId
+  KeyWord:
+  - - jd_wdzfd_activityId
+  Name: 【KR库】微定制瓜分福袋
+  Script: KingRan_KR/jd_wdzfd.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_invite_url
+  KeyWord:
+  - - jd_lzkj_loreal_invite_url
+  Name: 【KR库】邀请入会有礼
+  Script: KingRan_KR/jd_lzkj_loreal_invite.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_showInviteJoin_activityUrl
+  KeyWord:
+  - - jd_showInviteJoin_activityUrl
+  Name: 【KR库】邀请入会赢好礼 · 京耕
+  Script: KingRan_KR/jd_jinggeng_showInviteJoin.js
   TimeOut: 0
   Wait: 2
