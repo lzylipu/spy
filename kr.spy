@@ -1,0 +1,37 @@
+js_config:
+- Container:
+  - []
+  Env: jd_wxCartKoi_activityId
+  KeyWord:
+  - - jd_wxCartKoi_activityId
+  Name: 【云上】购物车锦鲤
+  Script: jd_wxCartKoi.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: WXGAME_ACT_ID
+  KeyWord:
+  - - WXGAME_ACT_ID
+  Name: 【云上】通用游戏任务
+  Script: jd_wxgame.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxFansInterActionActivity_activityId
+  KeyWord:
+  - - jd_wxFansInterActionActivity_activityId
+  Name: 【云上】粉丝互动
+  Script: jd_wxFansInterActionActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxSecond_activityId
+  KeyWord:
+  - - jd_wxSecond_activityId
+  Name: 【云上】读秒拼手速
+  Script: jd_wxSecond.js
+  TimeOut: 0
+  Wait: 2
