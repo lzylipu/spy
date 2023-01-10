@@ -305,3 +305,12 @@ js_config:
   Script: KingRan_KR/jd_jinggeng_showInviteJoin.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_wxBulidActivityId
+  KeyWord:
+  - - jd_wxBulidActivityId
+  Name: 【faker库】盖楼有礼-JK
+  Script: shufflewzc_faker3_main/jd_wxBulidActivity.py
+  TimeOut: 0
+  Wait: 2
