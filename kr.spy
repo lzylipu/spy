@@ -208,15 +208,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: LUCK_DRAW_URL
-  KeyWord:
-  - - LUCK_DRAW_URL
-  Name: 【KR库】店铺抽奖
-  Script: KingRan_KR/jd_luck_draw.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: VENDER_ID
   KeyWord:
   - - VENDER_ID
