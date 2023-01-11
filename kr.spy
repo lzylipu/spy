@@ -314,3 +314,12 @@ js_config:
   Script: shufflewzc_faker3_main/jd_wxBulidActivity.py
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_wxUnPackingActivity_activityId
+  KeyWord:
+  - - jd_wxUnPackingActivity_activityId
+  Name: 【kr库】福袋飞
+  Script: KingRan_KR/jd_wxUnPackingActivity.js
+  TimeOut: 0
+  Wait: 2
